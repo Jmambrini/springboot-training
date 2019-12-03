@@ -1,0 +1,13 @@
+## PostgreSQL
+spring:
+    datasource:
+        url: jdbc:postgresql://172.16.3.20:5432/joao
+        username: postgres
+        password: monitora
+    jpa:
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.PostgreSQLDialect
+        show-sql: true
+        hibernate:
+            ddl-auto: update
